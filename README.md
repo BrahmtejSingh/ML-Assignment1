@@ -16,16 +16,16 @@ Optimize Parameters: Runs gradient descent to optimize w and b.
 Plot Regression Line: Plots the best fit line against the training data on a scatter plot.
 Make Predictions: Uses the optimized parameters to predict profits for cities with populations of 35,000 and 70,000.
 
-#Functions
+# Functions
 load_data(): Loads the training dataset.
 compute_cost(x, y, w, b): Computes the cost function.
 compute_gradient(x, y, w, b): Computes the gradient of the cost function.
 gradient_descent(x, y, w_in, b_in, cost_function, gradient_function, alpha, num_iters): Performs gradient descent to minimize the cost function.
 
-#Requirements
+# Requirements
 This script requires NumPy for numerical operations and Matplotlib for plotting.
 
-#Example Output
+# Example Output
 For population = 35,000, we predict a profit of $[predicted profit].
 For population = 70,000, we predict a profit of $[predicted profit].
 
